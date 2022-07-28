@@ -2,6 +2,8 @@ first build docker image with image name as "cats-app"
 
 then start kubernetes pods as mentioned below - 
     - kubectl apply -f cats-app.yml 
+    
+Your app now should start at port 30001
 
 to check deployments - 
     - kubectl get deployments
